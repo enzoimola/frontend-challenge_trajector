@@ -17,7 +17,13 @@
         <textarea id="message" v-model="message" required class="form-container--input"></textarea>
       </div>
 
-      <button type="submit">Submit</button>
+      <v-btn
+          type="submit"
+          append-icon="$vuetify"
+          variant="tonal"
+      >
+        Submit
+      </v-btn>
     </form>
 
     <div v-if="showSuccessMessage" class="success-message">

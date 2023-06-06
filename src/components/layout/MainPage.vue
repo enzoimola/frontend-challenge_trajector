@@ -1,14 +1,16 @@
 <template>
   <div>
-    <h1>Welcome to the Main Page!</h1>
-    <p>This is the content of the main page.</p>
+    <home-page :title="'Welcome to the Main Page!'"></home-page>
   </div>
 </template>
 
 <script>
+import HomePage from "@/components/pages/HomePage.vue";
+
 export default {
-  name: 'HelloWorld',
+  name: 'MainPage',
   components: {
+    HomePage
 
   },
 };
