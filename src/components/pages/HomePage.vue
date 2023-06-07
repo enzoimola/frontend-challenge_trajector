@@ -1,9 +1,13 @@
 <template>
-  <h1>{{ title }}</h1>
-  <p>This is the content of the main page.</p>
-
   <div class="home-container">
+    <div>
+      <div class="home-container__titles">
+        <h1>{{ title }}</h1>
+        <p>This is the content of the main page.</p>
+      </div>
 
+
+    </div>
   </div>
 </template>
 
@@ -24,5 +28,9 @@ export default {
 </script>
 
 <style scoped>
+
+.home-container__titles {
+  text-align: center;
+}
 
 </style>
